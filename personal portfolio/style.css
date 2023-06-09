@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #544653e6;
+  }
+  
+  .intro {
+    flex-grow: 1;
+    margin-right: 20px;
+  }
+  
+  .intro h1 {
+    font-size: 28px;
+  }
+  
+  .intro p {
+    font-size: 18px;
+    color: #888;
+  }
+  
+  header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ede4d1;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  #contact {
+    background-color: #b6d4d0;
+  }
+  
+  #resume {
+    background-color: #d8c9a7;
+  }
